@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Bandita Mohapatra | BSc ITM Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <!-- Google Fonts for modern typography -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <!-- 3D Interactive Background Canvas -->
+  <canvas id="bg-canvas"></canvas>
+
+  <!-- Navigation Bar -->
+  <nav class="navbar">
+    <a href="#" class="nav-logo">Portfolio<span>.</span></a>
+    <ul class="nav-links">
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- Hero Section -->
+  <header class="hero">
+    <div class="hero-container">
+      <div class="hero-text">
+        <p class="hero-tag">Welcome to my portfolio</p>
+        <h1>Hi, I'm <span class="highlight">Bandita Mohapatra</span></h1>
+        <h2>BSc ITM Student & Aspiring Software Developer</h2>
+        <p class="hero-desc">
+          Passionate about building functional web applications, database management, and solving real-world problems with code.
+        </p>
+        <div class="hero-btns">
+          <a href="#projects" class="btn btn-primary">View My Work</a>
+          <a href="#contact" class="btn btn-secondary">Get In Touch</a>
+        </div>
+      </div>
+      <div class="hero-image">
+        <!-- Replace assets/profile.jpg with your image file path -->
+        <img src="assets/profile.jpg" alt="Profile Picture" onerror="this.src='https://via.placeholder.com/260'" />
+      </div>
+    </div>
+  </header>
+
+  <!-- About & Education Section -->
+  <section id="about" class="section">
+    <h2 class="section-title">About & Education</h2>
+    <div class="about-grid">
+<div class="card">
+  <h3>Who I Am</h3>
+  <p style="margin-top: 1rem;">
+    Technically, I focus on relational database architecture using <strong>SQL & DBMS</strong>,  core <strong>Data Structures & Algorithms (Java)</strong> and responsive web interfaces with <strong>HTML5, CSS3, and JavaScript</strong>. I enjoy untangling complex logic, optimizing database queries, and translating real-world workflow requirements into clean, functional code.
+  </p>
+</div>
+      <div class="card">
+        <h3>Education</h3>
+        <div class="timeline-item">
+          <strong>Bachelor of Science in ITM</strong>
+          <span class="timeline-date">2024-2027</span>
+          <p>Key Coursework: Database Management Systems (DBMS), Java, Object-Oriented Programming, Data Structures, Web Technology.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills Section -->
+  <section id="skills" class="section">
+    <h2 class="section-title">Technical Toolkit</h2>
+    <div class="skills-grid">
+      <div class="card skill-card">
+        <h3>Languages</h3>
+        <div class="pill-group">
+          <span class="pill">Python</span>
+          <span class="pill">Java</span>
+          <span class="pill">SQL</span>
+          <span class="pill">JavaScript</span>
+        </div>
+      </div>
+      <div class="card skill-card">
+        <h3>Web & Database</h3>
+        <div class="pill-group">
+          <span class="pill">HTML5</span>
+          <span class="pill">CSS3</span>
+          <span class="pill">MySQL</span>
+          <span class="pill">SQLite</span>
+        </div>
+      </div>
+      <div class="card skill-card">
+        <h3>Tools & Platforms</h3>
+        <div class="pill-group">
+          <span class="pill">VS Code</span>
+          <span class="pill">Git & GitHub</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects" class="section">
+    <h2 class="section-title">Featured Projects</h2>
+    <div class="projects-grid">
+      
+      <!-- Project 1 -->
+      <div class="project-card">
+        <div class="project-content">
+          <span class="project-tag">Full-Stack / Python</span>
+          <h3>SGPA Simulator</h3>
+          <p>SGPA Simulator is an academic forecasting platform that projects semester grades, reverse-calculates required marks for target CGPAs, and tracks scholarship eligibility in real time before exams occur.</p>
+          <div class="pill-group">
+            <span class="pill">Python</span>
+            <span class="pill">SQL</span>
+            <span class="pill">HTML/CSS</span>
+            <span class="pill">JavaScript</span>
+          </div>
+          <div class="project-links">
+            <a href="#" class="link-btn">Source Code →</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Project 2 -->
+      <div class="project-card">
+        <div class="project-content">
+          <span class="project-tag">Frontend & Logic</span>
+          <h3>Personal-Portfolio</h3>
+          <p>This portfolio is my digital showroom: it introduces who I am, provides living proof of my problem-solving abilities, and connects recruiters directly to me and my work.</p>
+          <div class="pill-group">
+            <span class="pill">HTML</span>
+            <span class="pill">CSS</span>
+            <span class="pill">Javascript</span>
+          </div>
+          <div class="project-links">
+            <a href="#" class="link-btn">Source Code →</a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="section contact-section">
+    <h2 class="section-title">Let's Connect</h2>
+    <p class="contact-desc">Feel free to reach out for opportunities, academic collaborations, or project discussions.</p>
+    <div class="contact-links">
+      <a href="mohapatrab347@gmail.com" class="btn btn-primary">Email Me</a>
+      <a href="https://github.com/bandita-07" target="_blank" class="btn btn-secondary">GitHub</a>
+      <a href="https://www.linkedin.com/in/bandita-mohapatra-89719b367" target="_blank" class="btn btn-secondary">LinkedIn</a>
+    </div>
+  </section>
+
+  <footer>
+    <p>© Designed & Built by Bandita</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
