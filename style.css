@@ -277,6 +277,17 @@ body {
   font-size: 0.9rem;
 }
 
+.website-links {
+  margin-top: 1.5rem;
+}
+
+.link-btn {
+  color: var(--primary);
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 0.9rem;
+}
+
 /* Contact */
 .contact-section {
   text-align: center;
